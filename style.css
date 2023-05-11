@@ -1,0 +1,553 @@
+*, ::before, ::after{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Montserrat-Light;
+	scroll-behavior: smooth;
+}
+.width{
+	max-width: 1111px;
+	margin: 0 auto;
+}
+body{
+	color: #FFFFCC;
+	background:#282828 ;
+}
+a{
+	text-decoration: none;
+	color: #FFFFCC;
+}
+li{
+	list-style: none;
+}
+@font-face {
+	font-family: Montserrat-Light;
+	src: url(fonts/Montserrat-Light.ttf);
+}
+@font-face {
+	font-family: Montserrat-Regular;
+	src: url(fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+	font-family: Raleway-Regular;
+	src: url(fonts/Raleway-Regular.ttf);
+}
+
+.main_block {
+}
+.header {
+
+}
+.header_first_block {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 70px;
+}
+.header_first_item {
+	display: flex;
+	align-items: center;
+}
+.header_first_item_i h1{
+	font-weight: 100;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 0.085em;
+}
+.header_first_item_i img{
+	width: 34px;
+	height: 34px;
+	margin-right: 18px;
+}
+.header_first_item_i p{
+	font-size: 13px;
+	line-height: 150%;
+	text-align: right;
+	letter-spacing: 0.085em;
+}
+.header_second_block {
+
+}
+.header_second_block ul{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;	
+	min-height: 47px;
+}
+.header_second_block li{
+
+}
+.header_second_block a{
+	font-size: 14px;
+	line-height: 150%;
+	letter-spacing: 0.085em;
+	color: #FFFFCC;
+}
+.header_second_block a:hover{
+	text-decoration: underline;
+
+}
+.line{
+	border: 1px solid rgba(255, 255, 204, 0.29);
+}
+
+
+
+
+.slider_main{
+	overflow: hidden;
+}
+.slider {
+	width: 200%;
+	display: flex;
+	animation: toRight 10s  cubic-bezier(0.83, 0, 0.17, 1)	 alternate infinite;
+}
+.slider:hover {
+	animation-play-state: paused;
+}
+/* test */
+@keyframes toRight{
+	0%{margin-left: 0%;}
+	40%{margin-left: 0%;}
+	60%{margin-left:-100%;}
+	100%{margin-left:-100%;}
+	}
+/* test */
+.bc1{
+	background: url('img/header/Rectangle\ 2.png');
+	background-position: center center;
+	background-size: cover;
+}
+.bc2{
+	background: url('img/header/xiaomi-mi-electric-scooter-3-cover.jpg');
+	background-position: center center;
+	background-size: cover;
+	width: 100%;
+}
+.slider_card {
+	width: 100%;
+	min-height: 782px;
+}
+.width {
+}
+.slider_card_main {
+	padding-top: 171px;
+	max-width: 600px ;
+}
+.slider_card_main h2 {
+	max-width: 830px;
+	font-size: 48px;
+	line-height: 100%;
+	letter-spacing: 0.085em;
+	color: #FFFFCC;
+	text-shadow: 0px 0px 19px #000000;
+	margin-bottom: 47px;
+}
+.slider_card_main p{
+	font-size: 20px;
+	line-height: 100%;
+	letter-spacing: 0.085em;
+	color: #FFFFCC;
+	text-shadow: 1px 1px 3px black;
+	margin-bottom: 180px;
+}
+.slider_card_main a{
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 100%;
+	text-align: center;
+	letter-spacing: 0.085em;
+	color: #FFFFCC;
+	text-shadow: 0px 0px 7px #000000;
+	padding: 22px 117px;
+	border: 1px solid #FFFFCC;
+	transition: .2s color ease-in-out, .2s background ease-in-out;
+}
+
+.slider_card_main a:hover{
+	color: #282828;
+	background: #FFFFCC;
+	text-shadow: 0px 0px 0px #000000;
+	transition: .2s color ease-in-out, .2s background ease-in-out;
+}
+.Peculiarities {
+	padding-top: 157px;
+	padding-bottom: 152px;
+}
+.Peculiarities_main {
+
+}
+.heading {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.heading_text {
+	flex-shrink: 0;
+}
+.heading_line {
+	flex-shrink: 1;
+	width: 100%;
+}
+.heading_text h2{
+	font-weight: 300;
+	font-size: 48px;
+	line-height: 59px;
+	text-align: center;
+	color: #FFFFCC;
+	margin-right: 30px;
+}
+
+.heading_line hr{
+	border: 1px solid #FFFFCC;
+}
+
+.Peculiarities_first_block {
+	display: flex;
+	justify-content: space-between;
+}
+.Peculiarities_card {
+	margin-top: 128px;
+	margin-bottom: 185px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.Peculiarities_card img{
+	 width: 80px;
+	 height: 80px;
+}
+.Peculiarities_card h2{
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.085em;
+	color: #FFFFCC;
+	margin-top: 45px;
+}
+.Peculiarities_second_block p{
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 165.02%;
+	text-align: center;
+	letter-spacing: 0.085em;
+	color: #FFFFCC;
+}
+
+/* test */
+	.goods_second_block>#content-1:target~.goods_first_block>a[href="#c"],
+    .goods_second_block>#content-2:target~.goods_first_block>a[href="#content-2"],
+	.goods_second_block>#content-3:target~.goods_first_block>a[href="#content-3"],
+    .goods_second_block>#content-4:target~.goods_first_block>a[href="#content-4"] {
+      	cursor: default;
+    }
+	.goods_block:not(.goods_first_block) {
+		display: none;
+		order: 1;
+	}
+  
+	.goods_block:target {
+		display: block;
+	}
+
+
+
+/* test */
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+
+
+.goods {
+	padding-top: 157px;
+	padding-bottom: 280px;
+}
+.goods_main {
+	min-height: 1000px;
+}
+.goods_first_block {
+	margin-top: 113px;
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 120px;
+}
+.goods_first_block a{
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+}
+.goods_second_block {
+}
+.goods_block {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.goods_card {
+	width: 330px;
+	margin-bottom: 90px;
+	border: 1px solid #FFFFCC;
+}
+.goods_card h3{
+	margin: 18px 16px;
+	font-size: 15px;
+	line-height: 18px;
+}
+.goods_card p{
+	margin: 18px 16px;
+	font-size: 15px;
+	line-height: 18px;
+}
+
+.goods_img {
+	width: 328px;
+	height: 272px;
+	background: #fff;
+	overflow: hidden;
+}
+.goods_img img{
+	width: 328px;
+	height: 272px;
+	object-fit: contain;
+	object-position: center center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.information {
+	background: linear-gradient(180deg, #282828 0%, #333333 100%);
+}
+.information_main {
+	padding-bottom: 271px;
+}
+.information_first_block {
+	padding-top: 127px;
+	padding-bottom: 87px;
+
+}
+.information_second_block p{
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 165.02%;
+	letter-spacing: 0.085em;
+}
+
+
+.brands {
+	background: linear-gradient(180deg, #333333 0%, #282828 100%);
+	padding-top: 87px;
+}
+.brands_main {
+}
+.brands_first_block {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 158px;
+	padding-bottom: 304px;
+}
+.brands_block {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 88px;
+	width: 305px;
+	border: 1px solid #FFFFCC;
+	filter: drop-shadow(0px 0px 10px #ffffcc5d);
+	background: #282828;
+	margin-bottom: 156px;
+}
+.brands_block h3{
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 47px;
+	text-align: center;
+}
+
+
+
+.About_company {
+	background: radial-gradient(50% 50% at 50% 50%, #333333 0%, #282828 100%);
+}
+.About_company_main {
+}
+.About_company_first_block {
+	padding-top: 175px;
+	padding-bottom: 347px;
+	display: flex;
+	justify-content: space-between;
+}
+.About_company_text {
+	width: 50%;
+
+}
+.About_company_text p{
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 29px;
+	letter-spacing: 0.085em;
+}
+.About_company_form {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: end;
+}
+.About_company_form input{
+	width: 380px;
+	height: 52px;
+	border: 1px solid rgba(255, 255, 204, 0.5);
+	background: transparent;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.085em;
+	color: #FFFFCC;
+	padding-left: 24px;
+	margin-bottom: 38px;
+
+}
+.About_company_form input::placeholder{
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.085em;
+	color: #FFFFCC;
+}
+.About_company_form button{
+	width: 380px;
+	height: 52px;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+	letter-spacing: 0.085em;
+	color: #FFFFCC;
+	background: transparent;
+	border: 1px solid rgba(255, 255, 204, 0.5);
+	cursor: pointer;
+}
+.Our_consultants {
+	padding-top: 74px;
+}
+.Our_consultants_main {
+	padding-bottom: 175px;
+}
+.Our_consultants_first_block {
+	padding-top: 126px;
+	overflow: hidden;
+	padding-bottom: 154px;
+}
+.Our_consultants_card {
+	padding-left: 16px;
+	padding-bottom: 32px;
+	background:#282828;
+	border-bottom: 1px solid #FFFFCC;
+	box-shadow: 0px 5px 5px 0px #ffffcc27;
+	margin-bottom: 50px;
+}
+.Our_consultants_card h3{
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	letter-spacing: 0.085em;
+	margin-bottom: 43px;
+}
+.Our_consultants_card p{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 0.085em;
+}
+.Our_consultants_second_block p{
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+	letter-spacing: 0.085em;
+}
+.Reviews {
+}
+.Reviews_main {
+}
+.Reviews_first_block {
+	margin-top: 136px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.Reviews_card {
+	padding: 23px 23px 23px 23px;
+	background: #282828;
+	width: 419px;
+	border-width: 0px 0px 1px 1px;
+	border-style: solid;
+	box-shadow: -5px 5px 5px 0px #ffffcc27;
+	border-color: #FFFFCC;
+	margin-bottom: 176px;
+}
+.Reviews_card h3{
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	margin-bottom: 27px;
+}
+.Reviews_card p{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+}
+.footer {
+	height: 83px;
+	background: #FFFFCC;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.footer img{
+	width: 52px;
+	height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
