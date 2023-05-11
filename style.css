@@ -344,6 +344,9 @@ li{
 	padding-bottom: 87px;
 
 }
+.information_first_block img{
+	width: 100%;
+}
 .information_second_block p{
 	font-weight: 300;
 	font-size: 24px;
